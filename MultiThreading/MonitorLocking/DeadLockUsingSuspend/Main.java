@@ -43,10 +43,10 @@ public class Main {
                 // TODO: handle exception
             }
         System.out.println("thread is resumed again ");
-        thread1.resume();
+        thread1.resume(); 
 
         try{
-            thread2.join();
+            thread2.join();// this makes main wait untill the desired thread completes its work then only main thread will be stopped
         }catch(Exception e){
             // hanlde exception here
         }

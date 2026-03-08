@@ -2,7 +2,7 @@ package Java_A2Z.MultiThreading.MonitorLocking.DeadLockUsingSuspend;
 
 public class Main {
     public static void main(String args[])
-    {
+    { 
         SharedResource obj = new SharedResource();
 
         System.out.println("Main thread started");

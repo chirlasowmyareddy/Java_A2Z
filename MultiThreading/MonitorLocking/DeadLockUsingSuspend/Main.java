@@ -34,7 +34,7 @@ public class Main {
                 // TODO: handle exception
             }
         System.out.println("thread1 is suspended");
-        thread1.suspend();
+        // thread1.suspend();
 
         try {
                 Thread.sleep(3000);
@@ -43,7 +43,7 @@ public class Main {
                 // TODO: handle exception
             }
         System.out.println("thread is resumed again ");
-        thread1.resume(); 
+        // thread1.resume(); 
 
         try{
             thread2.join();// this makes main wait untill the desired thread completes its work then only main thread will be stopped

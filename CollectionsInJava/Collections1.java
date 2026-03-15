@@ -1,4 +1,4 @@
-package Java_A2Z.Collections;
+package Java_A2Z.CollectionsInJava;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.Stack;
 /*
     isEmpty(),contains(),add(),..etc
  */
-public class Collections {
+public class Collections1 {
 
     public static void main(String[] args){
         List<Integer> values  = new ArrayList<>();

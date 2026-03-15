@@ -1,4 +1,4 @@
-package Java_A2Z.Collections;
+package Java_A2Z.CollectionsInJava;
 
 import java.util.ArrayList;
 import java.util.Iterator;

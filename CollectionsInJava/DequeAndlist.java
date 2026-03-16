@@ -147,6 +147,7 @@ public class DequeAndlist {
 
         Deque is not thread safe but same functionality can be done using stack which is thread safe
          */
+        
 
 
 

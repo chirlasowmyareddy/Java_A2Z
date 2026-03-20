@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class HashMapInternalWorking {
+    //HashMap is not thread safe
+    //HashTable is thread safe and unlike hashMap it does not containe null key or value
 
     //map is not a part of collection as it is a key value pair where collection is only value.
 

@@ -39,7 +39,7 @@ public class LinkedHashMapTreeMap {
 
         System.out.println("-----------below is LinkedHashMap output------------");
         System.out.println("Maintain Access Order");
-        System.out.println("Order is low frequnrty used to high frequently used");
+        System.out.println("Order is low frequnrty used to high frequently");
         Map<Integer,String> mpp3 = new LinkedHashMap<>(16,.75F,true);
 
         mpp3.put(1,"A");
